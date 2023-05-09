@@ -266,3 +266,89 @@ img:hover {
     width: 100%;
   }
 }
+
+
+.button-counter {
+  padding: 4px;
+  background: #F8FAFC;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.job-link {
+  text-decoration: none;
+}
+
+.form-add {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  color: var(--color-secondary);
+  padding-bottom: 28px;
+  width: 659px;
+}
+
+label {
+  color: #0f0f10;
+  
+}
+
+input[type=submit]:focus {
+  border: 1px solid var(--color-focus); 
+}
+
+input,
+textarea {
+  background: #F8FAFC;
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 10px;
+  border: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid var(--color-focus);
+}
+
+textarea {
+  resize: none; /*not to do*/
+  width: 460px;
+  height: 139px;
+}
+
+.button-submit {
+  background: var(--color-focus);
+  color: var(--color-text-white);
+  border-radius: 6px;
+  padding: 4px 16px;
+  width: 200px;
+  height: 32px;
+  border: none;
+}
+
+.button-submit:hover {
+  background: #002266;
+}
+
+.button-submit:focus {
+  border: 1px solid var(--color-focus); 
+}
+
+.new-job {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.new-job-last {
+  padding-bottom: 15px;
+}
+
+.new-job-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
