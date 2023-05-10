@@ -352,3 +352,22 @@ textarea {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.repositories {
+  margin-top: 20px;
+}
+.repositories li {
+  list-style-position: inside;
+  padding-top: 10px;
+}
+.repositories a {
+  font-weight: 600;
+  color: var(--color-text);
+  cursor: pointer;
+}
+.repositories a:visited {
+  color: #530898;
+}
+.repositories a:hover {
+  color: #6810ba;
+}

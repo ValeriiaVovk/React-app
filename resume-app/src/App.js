@@ -7,6 +7,7 @@ import { Counter } from './components/counter';
 import { OtherExperience } from './components/experience/experience-render';
 import { useState } from "react";
 import Form from './components/form';
+import Repositories from './components/api';
 
 
 
@@ -47,12 +48,15 @@ function App() {
               </div>
             ))}
           </div> */}
+          <div>
+            <h2 className="heading">My projects</h2>
+            <Repositories />
+          </div>
         </section>
         <section className="adaptive">
           <h2 className="form-add">Add a new job position</h2>
 
           <Form onFormSubmit={handleFormSubmit} />
-          
         </section>
       </main>
     </div>
